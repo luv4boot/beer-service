@@ -4,11 +4,10 @@ import com.luv4code.beerservice.domain.Beer;
 import com.luv4code.beerservice.repositories.BeerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-@Component
+//@Component
 @RequiredArgsConstructor
 public class BeerLoader implements CommandLineRunner {
 
