@@ -1,5 +1,5 @@
 package com.luv4code.beerservice.web.model;
 
-public enum BeerStrleEnum {
+public enum BeerStyleEnum {
     LAGER, PILSNER, STOUT, GOSE, PORTER, ALE, WHEAT, IPA, PALE_ALE, SAISON
 }

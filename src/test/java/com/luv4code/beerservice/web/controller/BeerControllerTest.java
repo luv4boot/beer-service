@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.luv4code.beerservice.bootstrap.BeerLoader;
 import com.luv4code.beerservice.services.BeerService;
 import com.luv4code.beerservice.web.model.BeerDto;
-import com.luv4code.beerservice.web.model.BeerStrleEnum;
+import com.luv4code.beerservice.web.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -72,7 +72,7 @@ class BeerControllerTest {
     BeerDto getValidateBeerDto() {
         return BeerDto.builder()
                 .beerName("My Beer")
-                .beerStyle(BeerStrleEnum.ALE)
+                .beerStyle(BeerStyleEnum.ALE)
                 .price(new BigDecimal("2.99"))
                 .upc(BeerLoader.BEER_1_UPC)
                 .build();
