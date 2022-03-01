@@ -1,4 +1,4 @@
-package com.luv4code.beerservice.services;
+package com.luv4code.beerservice.services.brewing;
 
 import com.luv4code.beerservice.config.JmsConfig;
 import com.luv4code.beerservice.domain.Beer;
