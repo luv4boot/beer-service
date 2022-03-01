@@ -24,17 +24,17 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: debug
-        type:
-          description:
-            sql:
-              BasicBinder: trace
-    com:
-      zaxxer:
-        hikari:
-          HikariConfig: debug
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: debug
+#        type:
+#          description:
+#            sql:
+#              BasicBinder: trace
+#    com:
+#      zaxxer:
+#        hikari:
+#          HikariConfig: debug
 
