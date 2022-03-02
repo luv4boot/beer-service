@@ -1,8 +1,8 @@
 package com.luv4code.beerservice.services;
 
-import com.luv4code.beerservice.web.model.BeerDto;
-import com.luv4code.beerservice.web.model.BeerPagedList;
-import com.luv4code.beerservice.web.model.BeerStyleEnum;
+import com.luv4code.lfc.brewery.model.BeerDto;
+import com.luv4code.lfc.brewery.model.BeerPagedList;
+import com.luv4code.lfc.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

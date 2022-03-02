@@ -1,7 +1,7 @@
 package com.luv4code.beerservice.repositories;
 
 import com.luv4code.beerservice.domain.Beer;
-import com.luv4code.beerservice.web.model.BeerStyleEnum;
+import com.luv4code.lfc.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,9 +1,9 @@
 package com.luv4code.beerservice.web.controller;
 
 import com.luv4code.beerservice.services.BeerService;
-import com.luv4code.beerservice.web.model.BeerDto;
-import com.luv4code.beerservice.web.model.BeerPagedList;
-import com.luv4code.beerservice.web.model.BeerStyleEnum;
+import com.luv4code.lfc.brewery.model.BeerDto;
+import com.luv4code.lfc.brewery.model.BeerPagedList;
+import com.luv4code.lfc.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
