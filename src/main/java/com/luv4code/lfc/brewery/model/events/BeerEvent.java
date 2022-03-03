@@ -1,4 +1,4 @@
-package com.luv4code.lfc.brewery.events;
+package com.luv4code.lfc.brewery.model.events;
 
 import com.luv4code.lfc.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;

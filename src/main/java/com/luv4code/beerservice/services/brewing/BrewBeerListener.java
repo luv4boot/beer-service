@@ -2,8 +2,8 @@ package com.luv4code.beerservice.services.brewing;
 
 import com.luv4code.beerservice.config.JmsConfig;
 import com.luv4code.beerservice.domain.Beer;
-import com.luv4code.lfc.brewery.events.BrewBeerEvent;
-import com.luv4code.lfc.brewery.events.NewInventoryEvent;
+import com.luv4code.lfc.brewery.model.events.BrewBeerEvent;
+import com.luv4code.lfc.brewery.model.events.NewInventoryEvent;
 import com.luv4code.beerservice.repositories.BeerRepository;
 import com.luv4code.lfc.brewery.model.BeerDto;
 import lombok.RequiredArgsConstructor;
